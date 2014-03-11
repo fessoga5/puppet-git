@@ -31,7 +31,7 @@ define git::repo(
   require git
   require git::params
 
-  validate_bool($bare, $update)
+  #validate_bool($bare, $update)
 
   if $branch {
     $real_branch = $branch
